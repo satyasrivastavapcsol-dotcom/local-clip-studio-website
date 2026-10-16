@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Local Clip Studio is desktop software for creating, editing, and organizing gameplay videos for social media.">
+  <title>Local Clip Studio | Create, Edit & Publish Videos</title>
+  <style>
+    :root {
+      --bg: #0b1020;
+      --panel: #151d33;
+      --text: #f7f9ff;
+      --muted: #afbdd7;
+      --accent: #8b5cf6;
+      --cyan: #38bdf8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.7;
+    }
+    a { color: inherit; }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 20px;
+      padding: 20px 8%;
+      border-bottom: 1px solid #27314b;
+    }
+    .brand { font-size: 1.3rem; font-weight: 800; }
+    .brand span { color: var(--accent); }
+    nav { display: flex; gap: 22px; flex-wrap: wrap; }
+    nav a { text-decoration: none; color: var(--muted); }
+    nav a:hover { color: white; }
+    main { max-width: 1150px; margin: auto; padding: 0 24px; }
+    .hero { text-align: center; padding: 100px 12px 85px; }
+    .eyebrow {
+      color: var(--cyan);
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 2px;
+      font-size: .8rem;
+    }
+    h1 {
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      line-height: 1.15;
+      margin: 20px 0;
+    }
+    h1 span { color: var(--accent); }
+    .lead {
+      max-width: 760px;
+      margin: 0 auto 30px;
+      color: var(--muted);
+      font-size: 1.15rem;
+    }
+    .pill {
+      display: inline-block;
+      background: #242044;
+      border: 1px solid #4b3a82;
+      padding: 10px 20px;
+      border-radius: 50px;
+      color: #ddd6fe;
+      font-weight: 600;
+    }
+    section { padding: 55px 0; }
+    h2 { font-size: 2rem; margin-bottom: 12px; }
+    .section-description { color: var(--muted); }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: var(--panel);
+      border: 1px solid #2a3552;
+      border-radius: 16px;
+      padding: 26px;
+    }
+    .card h3 { margin: 0 0 10px; }
+    .card p { color: var(--muted); margin: 0; }
+    .step {
+      margin: 16px 0;
+      padding: 20px 24px;
+      border-left: 3px solid var(--accent);
+      background: var(--panel);
+      border-radius: 8px;
+    }
+    .step p { color: var(--muted); margin: 4px 0; }
+    .notice {
+      background: #161f36;
+      border: 1px solid #334365;
+      border-radius: 16px;
+      padding: 28px;
+      margin-top: 24px;
+    }
+    .notice p { color: var(--muted); }
+    footer {
+      margin-top: 60px;
+      padding: 35px 8%;
+      background: #080d1b;
+      border-top: 1px solid #27314b;
+      text-align: center;
+      color: var(--muted);
+    }
+    footer a { margin: 0 12px; color: #c4b5fd; }
+    @media(max-width: 600px) {
+      header { flex-direction: column; text-align: center; }
+      .hero { padding-top: 65px; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="brand">Local <span>Clip</span> Studio</div>
+    <nav aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#workflow">How It Works</a>
+      <a href="#platforms">Platforms</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">Desktop Video Creation Software</div>
+      <h1>Create Better Clips.<br><span>Share Your Stories.</span></h1>
+      <p class="lead">
+        Local Clip Studio helps video creators transform gameplay
+        footage and recorded commentary into polished social media
+        videos with automated editing, captions, metadata preparation,
+        and publishing workflows.
+      </p>
+      <div class="pill">Create · Edit · Organize · Publish</div>
+    </div>
+
+    <section id="features">
+      <h2>Powerful Video Creation Tools</h2>
+      <p class="section-description">
+        A streamlined workflow for creators working with gameplay
+        recordings, voice commentary, and short-form video.
+      </p>
+      <div class="grid">
+        <div class="card">
+          <h3>🎮 Gameplay Highlights</h3>
+          <p>
+            Discover useful gameplay moments and prepare edited clips
+            from source recordings.
+          </p>
+        </div>
+        <div class="card">
+          <h3>🎙️ Audio Commentary</h3>
+          <p>
+            Combine recorded voice commentary with moving gameplay,
+            clean audio, and generate synchronized captions.
+          </p>
+        </div>
+        <div class="card">
+          <h3>📱 Vertical & Horizontal Video</h3>
+          <p>
+            Produce widescreen videos and vertical clips for different
+            publishing formats.
+          </p>
+        </div>
+        <div class="card">
+          <h3>✨ Titles & Captions</h3>
+          <p>
+            Prepare video titles, descriptions, subtitles, and hashtags
+            to support publishing.
+          </p>
+        </div>
+        <div class="card">
+          <h3>📅 Publishing Workflows</h3>
+          <p>
+            Organize publishing queues and schedule uploads through
+            supported, authorized platform integrations.
+          </p>
+        </div>
+        <div class="card">
+          <h3>📂 Manual Upload Exports</h3>
+          <p>
+            Export videos with matching descriptions and hashtags
+            for uploading manually to supported social platforms.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="workflow">
+      <h2>How Local Clip Studio Works</h2>
+      <div class="step">
+        <strong>01 — Choose your video source</strong>
+        <p>Select a supported gameplay recording, video file, or URL.</p>
+      </div>
+      <div class="step">
+        <strong>02 — Create and customize</strong>
+        <p>
+          Generate highlights or commentary-based videos with audio,
+          captions, and platform-appropriate formatting.
+        </p>
+      </div>
+      <div class="step">
+        <strong>03 — Review the output</strong>
+        <p>
+          Access rendered videos, prepared titles, descriptions,
+          hashtags, and export folders.
+        </p>
+      </div>
+      <div class="step">
+        <strong>04 — Distribute your content</strong>
+        <p>
+          Use configured publishing integrations or manually upload
+          exported videos to your chosen platforms.
+        </p>
+      </div>
+    </section>
+
+    <section id="platforms">
+      <h2>Multi-Platform Content Preparation</h2>
+      <p class="section-description">
+        Local Clip Studio supports workflows for YouTube, YouTube
+        Shorts, Facebook Videos, Facebook Reels, Instagram Reels,
+        and TikTok-ready video exports.
+      </p>
+      <div class="notice">
+        <h3>TikTok Integration</h3>
+        <p>
+          Local Clip Studio currently prepares TikTok-ready videos
+          and matching captions for manual uploading. Additional
+          authorized TikTok publishing functionality is under
+          development and subject to TikTok's API requirements,
+          permissions, and review process.
+        </p>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About Local Clip Studio</h2>
+      <p class="section-description">
+        Local Clip Studio is a desktop-based video production
+        application designed to simplify repetitive editing and
+        content preparation. It combines media processing,
+        creative tools, and publishing workflows in one interface.
+      </p>
+      <p class="section-description">
+        External platform connections are optional and require
+        authorization by the account holder. Platform functionality
+        is subject to the availability and policies of each service.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <strong>Local Clip Studio</strong>
+    <p>Desktop video creation and publishing workflows.</p>
+    <p>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms of Service</a>
+    </p>
+    <p>
+      Independent software. Not affiliated with TikTok,
+      YouTube, Google, Meta, or Facebook.
+    </p>
+    <p>&copy; 2026 Local Clip Studio.</p>
+  </footer>
+</body>
+</html>
